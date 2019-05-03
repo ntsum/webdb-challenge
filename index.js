@@ -1,7 +1,4 @@
-const express = require("express");
-
-const server = express();
-server.use(express.json());
+const server = require('./api/server.js');
 
 const port = process.env.PORT || 5000;
 
